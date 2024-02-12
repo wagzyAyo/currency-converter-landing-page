@@ -57,7 +57,7 @@ a button:hover{
     height: auto;
     rotate: 25deg;
 }
-.feature-1, .feature-2{
+.feature-1, .feature-2, .about-section{
     margin: 30px 25%;
     text-align: center;
 }
@@ -76,4 +76,7 @@ a button:hover{
     background-color: #c1bebe;
     width:auto;
     height:auto;
+}
+.about{
+    background-color: aliceblue;
 }
