@@ -9,6 +9,7 @@ header{
     background-color: rgb(182, 181, 181);
     color: #fff;
     position: fixed;
+    z-index: 100;
 }
  nav img{
     width: 30px;
@@ -55,4 +56,24 @@ a button:hover{
     width:250px;
     height: auto;
     rotate: 25deg;
+}
+.feature-1, .feature-2{
+    margin: 30px 25%;
+    text-align: center;
+}
+.feature-black-bg{
+    background-color: #000;
+    color:#fff;
+}
+.feature-3{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 5%;
+    gap:30px;
+    align-items: baseline;
+}
+.code{
+    background-color: #c1bebe;
+    width:auto;
+    height:auto;
 }
