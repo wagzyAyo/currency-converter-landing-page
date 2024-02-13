@@ -57,20 +57,9 @@ a button:hover{
     height: auto;
     rotate: 25deg;
 }
-.feature-1, .feature-2, .about-section{
+.feature-1, .feature-2, .feature-3, .about-section{
     margin: 30px 25%;
     text-align: center;
-}
-.feature-black-bg{
-    background-color: #000;
-    color:#fff;
-}
-.feature-3{
-    display: flex;
-    justify-content: space-around;
-    margin: 30px 5%;
-    gap:30px;
-    align-items: baseline;
 }
 .code{
     background-color: #c1bebe;
