@@ -58,15 +58,8 @@ a button:hover{
     height: auto;
     rotate: 25deg;
 }
-.feature-1, .feature-2, .feature-3, .about-section{
-  position: relative;
-  left: 25%;
-  text-align: center;
-}
 p{
-    position: inherit;
-    left: 25%;
-    max-width: 300px;
+    max-width: 600px;
 }
 .code{
     background-color: #c1bebe;
