@@ -58,14 +58,28 @@ a button:hover{
     height: auto;
     rotate: 25deg;
 }
-p{
-    max-width: 600px;
-}
-.code{
+.feature-1, .feature-2, .feature-3{
     background-color: #c1bebe;
-    width:auto;
+    opacity: 0.7;
+    padding: 20px 40px;
+    max-width: 400px;
+    position: relative;
+    left: 50%;
+    margin-top:2em;
+}
+
+.api-img{
+    max-width:1000px;
     height:auto;
+    margin-top: 2em;
 }
 .about{
     background-color: aliceblue;
+    padding:2em;
+}
+
+@media screen and (max-width: 700px){
+    .feature-1, .feature-2, .feature-3{
+        left:0;
+    }
 }
